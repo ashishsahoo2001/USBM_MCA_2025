@@ -18,13 +18,21 @@ console.log("jay jagannath ");
 // let roll_no=21;
 // console.log(typeof num1);//Number
 //Addition
-let num2=100;
-let num3=125;
-let addition = num2 +num3;
-console.log(addition);
-let sub = num2 - num3;
-console.log(sub);
-let mul = num2*num3;
-console.log(mul);
-let div=num2/num3;
-console.log(div);
+// let num2=100;
+// let num3=125;
+// let addition = num2 +num3;
+// console.log(addition);
+// let sub = num2 - num3;
+// console.log(sub);
+// let mul = num2*num3;
+// console.log(mul);
+// let div=num2/num3;
+// console.log(div);
+//Templet literal:Backtik
+let Name ="Ashish";
+let Age =23;
+let City ="Jajpur";
+let roll_no=19;
+let college="USBM";
+let batch="2nd";
+console.log(`My name is ${Name}, city is ${City}, rollno ${roll_no},college is ${college},Batch is ${batch}`);
