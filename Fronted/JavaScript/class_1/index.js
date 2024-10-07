@@ -35,4 +35,4 @@ let City ="Jajpur";
 let roll_no=19;
 let college="USBM";
 let batch="2nd";
-console.log(`My name is ${Name}, city is ${City}, rollno ${roll_no},college is ${college},Batch is ${batch}`);
+console.log(`My name is ${Name}, City is ${City}, rollno ${roll_no},college is ${college},Batch is ${batch}`);
