@@ -31,8 +31,12 @@ console.log("jay jagannath ");
 //Templet literal:Backtik
 let Name ="Ashish";
 let Age =23;
-let City ="Jajpur";
+let City =" Jajpur ";
 let roll_no=19;
 let college="USBM";
 let batch="2nd";
 console.log(`My name is ${Name}, City is ${City}, rollno ${roll_no},college is ${college},Batch is ${batch}`);
+console.log(City.length-2);
+let num =100;
+let num2="100";
+console.log(num+num2);
