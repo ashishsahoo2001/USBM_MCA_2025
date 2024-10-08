@@ -14,7 +14,7 @@ let finalPrice = originalPrice - discount;
 console.log(`The final price of the Product is ${finalPrice}`);
 
 //Question-3
-let productPrice = 200;
+let productPrice = 500;
 let taxRate = 8;
 let tax_amount = (productPrice*taxRate)/100;
 let total_price = productPrice + tax_amount;
