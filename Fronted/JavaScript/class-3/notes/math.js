@@ -23,6 +23,7 @@
  
 //Falsy  value 
 // false,0,-0,"",``,'',null,undefined,NaN
+//Quertion-1
 // let total_bill = 1000;
 // let discount = 200;
 // if(total_bill>500)
