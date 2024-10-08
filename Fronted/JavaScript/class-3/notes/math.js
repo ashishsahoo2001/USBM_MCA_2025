@@ -126,25 +126,63 @@
 
 // }
 // Question-5 to check a day
-let week_no=1;
-switch(week_no){
-  case 0:
-    console.log("Sunday");
-    break;
-    case 1:
-    console.log("Monday");
-    break;case 2:
-    console.log("Tuesday");
-    break;case 3:
-    console.log("Wednesday");
-    break;case 4:
-    console.log("Thrusday");
-    break;case 5:
-    console.log("Friday");
-    break;
-    case 6:
-    console.log("Saturday");
-    break;
-    default:
-      console.log("enter valid number");
-}
+// let week_no=1;
+// switch(week_no){
+//   case 0:
+//     console.log("Sunday");
+//     break;
+//     case 1:
+//     console.log("Monday");
+//     break;case 2:
+//     console.log("Tuesday");
+//     break;case 3:
+//     console.log("Wednesday");
+//     break;case 4:
+//     console.log("Thrusday");
+//     break;case 5:
+//     console.log("Friday");
+//     break;
+//     case 6:
+//     console.log("Saturday");
+//     break;
+//     default:
+//       console.log("enter valid number");
+// }
+//const userInput = prompt("Please enter your name:");
+// const readline = require("readline");
+// const r1 = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+
+// let item1;
+// let item2;
+
+// r1.question("Enter item1: ", (input1) => {
+//   item1 = parseInt(input1);
+
+//   r1.question("Enter item2: ", (input2) => {
+//     item2 = parseInt(input2);
+
+//     let add = item1 + item2;
+//     console.log("The sum is:", add);
+
+//     r1.close(); // Close the readline interface after the input is processed
+//   });
+// });
+const readline = require("readline");
+const r1 = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+r1.question("Enter item1: ", (input1) => {
+  item1 = parseInt(input1);
+  if (item1 % 2 !== 0) 
+    console.log("This is odd:", item1);
+  
+  else {
+    console.log ("This is even:",item1);
+  }
+  });
+
+
