@@ -15,9 +15,16 @@
 // }
 // console.log(`The sum of the numbers is `,sum);
 
-for(let i=0;i<=3;i++){
-  for(let j=1;j<=2;j++){
-    console.log(j)
+// for(let i=0;i<=3;i++){
+//   for(let j=1;j<=2;j++){
+//     console.log(j)
+//   }
+//   console.log(i);
+// }
+for(let i=1;i<=5;i++){
+  let pattern ="";
+  for(let j=1;j<=i;j++){
+   pattern += "*";
   }
-  console.log(i);
+  console.log(pattern);
 }
