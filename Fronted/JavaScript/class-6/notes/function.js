@@ -33,7 +33,7 @@
  const printName = (name) => {
 return `My name is ${name}`;
 }
-console.log(printName("Ashis"));
+console.log(printName("Abinash"));
 
 //Done with the basic function 
 //callback
