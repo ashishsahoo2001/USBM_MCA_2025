@@ -1,17 +1,33 @@
 body {
+  background-color: #1e1e1e; 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 100vh;
-  background-color: #282c34;
-  font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.5s; 
 }
-
-.clock {
-  font-size: 48px;
-  color: #61dafb;
-  background-color: #20232a;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+.heading {
+  color: #4a92e0; 
+  margin-bottom: 20px;
+  font-size: 32px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added */
+}
+.clock-container {
+  background-color: #333;
+  padding: 30px 60px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  animation: pulse 2s infinite;
+}
+#clock {
+  font-size: 80px;
+  color: #00ff00; /* Neon green */
+  letter-spacing: 2px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0 0 10px #0066ff, 0 0 20px #0066ff, 0 0 30px #0066ff; 
+  transition: color 0.5s ease-in-out; /* Added */
 }
