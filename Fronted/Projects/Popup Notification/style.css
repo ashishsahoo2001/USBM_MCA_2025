@@ -1,0 +1,15 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+#popup{
+  color:white;
+  background-color: rgb(8, 14, 88);
+  padding: 50px;
+  border-radius: 40px;
+  font-size: larger;
+ font-family: 'Times New Roman', Times, serif;
+}
