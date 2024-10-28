@@ -1,2 +1,2 @@
-// SetTineOut(()=>{}//call back function);
+// SetTimeOut(()=>{}//call back function);
 // SetInterval(()=>{});// ajana function

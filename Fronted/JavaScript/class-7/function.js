@@ -95,6 +95,6 @@
 setTimeout(()=>{
   console.log("Hey USBM");
 },1000)
-setInterval(()=>{
-  console.log("I am Ashish");
-},1000)
+// setInterval(()=>{
+//   console.log("I am Ashish");
+// },1000)
