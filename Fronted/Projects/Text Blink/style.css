@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #050a94;
+}
+
+#blink-text {
+  font-size: 2em;
+  font-weight: bold;
+  color: #bcafb8;
+}
